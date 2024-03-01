@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Top 10 Favorite Shows</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background: url(sakura.gif);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+                height: 200vh;
+            }
+            header{
+                background: linear-gradient(135deg, #c3829e, #ffe7de);
+                color: rgb(255, 255, 255);
+                padding: 0px;
+                width: 100%;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: bold;
+                position: fixed;
+                z-index: 1;
+            }
+            h1{
+                color: white;
+                font-size: 36px;
+                text-align: center;
+                text-transform: uppercase;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: #562135;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                padding: 25px;
+            }
+            .item{
+                margin: 10px;
+                width: 150px;
+                height: 350px;
+                text-align: center;
+                background-color: rgba(255, 255, 255, 0.8);
+                border-radius: 40px;
+                padding: 40px;
+                box-shadow: 0 4px 5px rgb(86,33,53);
+                transition: transform 0.3s ease;
+                position: relative;
+            }
+            .item img{
+                width: 150px;
+                height: 150px;
+                border-radius: 25%;
+                margin-bottom: 20px;
+                object-fit: cover;
+            }
+            .item p{
+                margin: 5px 0;
+                font-size: 13px;
+                color: #000000;
+                text-align: justify;
+            }
+            .content{
+                padding: 16px;
+            }
+            .sticky{
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            .sticky + .content{
+                padding-top: 102px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="header">My Top 10 Favorite Shows</h1>
+        </header>
+        <br><br><br><br><br><br>
+        <div class="container">
+            <div class="item">
+                <img src="naruto.jpg">
+                <b>Naruto</b>
+                <p>Naruto Uzumaki wants to be the best ninja in the 
+                    land. He's done well so far, but with the looming 
+                    danger posed by the mysterious Akatsuki organization, 
+                    Naruto knows he must train harder than ever and 
+                    leaves his village for intense exercises that 
+                    will push him to his limits.</p>
+            </div>
+            <div class="item">
+                <img src="sao.jpg">
+                <b>Sword Art Online</b>
+                <p>In the year 2022, thousands of people get trapped 
+                    in a new virtual MMORPG known as Sword Art Online. 
+                    Where death normally causes you to respawn to a 
+                    safe zone, Sword Art Online was reprogrammed to 
+                    kill anyone who dies in the virtual world.</p>
+            </div>
+            <div class="item">
+                <img src="op.jpg">
+                <b>One Piece</b>
+                <p>In a seafaring world, a young pirate captain sets 
+                    out with his crew to attain the title of Pirate 
+                    King, and to discover the mythical treasure known 
+                    as 'One Piece. ' An alternate version of Earth, 
+                    and one that is currently in the midst of the 
+                    'Golden Age of Pirates'.</p>
+            </div>
+            <div class="item">
+                <img src="jojo.jpg">
+                <b>Jojo Bizarre Adventures</b>
+                <p>JoJo's Bizarre Adventure tells the story of the 
+                    Joestar family, a family whose various members 
+                    discover they are destined to take down supernatural 
+                    foes using powers that they possess.</p>
+            </div>
+            <div class="item">
+                <img src="jjk.jpg">
+                <b>Jujutsu Kaisen</b>
+                <p>The story follows high school student Yuji Itadori 
+                    as he joins a secret organization of Jujutsu Sorcerers 
+                    in order to kill a powerful Curse named Ryomen Sukuna, 
+                    of whom Yuji becomes the host.</p>
+            </div>
+            <div class="item">
+                <img src="dm.jpg">
+                <b>Demon Slayer</b>
+                <p>A family is attacked by demons and only two members 
+                    survive - Tanjiro and his sister Nezuko, who is 
+                    turning into a demon slowly. Tanjiro sets out to 
+                    become a demon slayer to avenge his family and 
+                    cure his sister.</p>
+            </div>
+            <div class="item">
+                <img src="fuushi.jpg">
+                <b>To Your Eternity</b>
+                <p>The story is about an immortal being, Fushi, who 
+                    takes on multiple forms and freely utilizes their 
+                    respective natural abilities at will, including 
+                    that of an abandoned white-haired boy and his white 
+                    wolf, in order to further evolve and stimulate as it 
+                    learns what it is to be truly human over the decades 
+                    and centuries.</p>
+            </div>
+            <div class="item">
+                <img src="sg.jpg">
+                <b>Steins;Gate</b>
+                <p>It follows the story of the self-proclaimed mad 
+                    scientist Rintaro Okabe, who, alongside his friends
+                    Mayuri Shiina and Itaru Hashida, discovers that they 
+                    have accidentally created a machine capable of 
+                    sending messages to the past.</p>
+            </div>
+            <div class="item">
+                <img src="cg.jpg">
+                <b>Code Geass</b>
+                <p>it follows the exiled prince Lelouch Lamperouge, 
+                    who obtains the "power of absolute obedience" 
+                    from a mysterious woman named C.C. Using this 
+                    supernatural power, known as Geass, he leads a 
+                    rebellion against the rule of the Holy Britannian 
+                    Empire, commanding a series of mecha battles.</p>
+            </div>
+            <div class="item">
+                <img src="aot.jpg">
+                <b>Attack on Titan</b>
+                <p>A teenage boy named Eren Jaeger must use his special 
+                    gift to fight alongside with the military to defeat 
+                    the titan race. Mankind is on the brink of extinction 
+                    when these man-eating monsters terrorize everybody 
+                    and set to destroy the last of human civilization 
+                    left in the world.</p>
+            </div>
+        </div>
+
+
+
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("header");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+            </script>
+    </body>
+</html>
